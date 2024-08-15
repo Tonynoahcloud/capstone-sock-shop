@@ -5,6 +5,7 @@ name: Deploy to AKS
       - main
     paths:
       - terraform/**
+      - my-app/**
 jobs:
   terraform:
     runs-on: ubuntu-latest
