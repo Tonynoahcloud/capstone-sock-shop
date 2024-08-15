@@ -27,7 +27,7 @@ jobs:
 
     - name: Set up AKS context
       run: |
-        az aks get-credentials --resource-group rg-fitting-bobcat  --name cluster-major-mastiff
+        az aks get-credentials --resource-group samuel-rg  --name munachimso
 
     - name: Install ingress-nginx using Helm
       run: |
